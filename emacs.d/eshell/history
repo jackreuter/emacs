@@ -1,0 +1,128 @@
+. ~/.bashrc
+source ~/.bashrc
+ll
+gd
+alias
+git
+alias
+history
+env
+ll --color
+alias ll 'ls -al --color'
+ll
+alias ll 'ls -alG'
+ll
+ls -al
+alias ll 'ls -al'
+ll
+env
+alias rc 'rails console'
+alias rs 'rails server'
+cd ~/
+cat .bashrc | grep alias
+grep alias *
+grep alias .bashrc
+alias 
+grep
+grep --help
+*grep .bashrc alias
+*grep alias .bashrc 
+*grep alias .bashrc | tr '=' ' '
+alias work 'cd ~/work/'alias ka 'cd ~/work/time/ka'alias pro 'cd ~/work/time/profile'alias hub 'cd ~/work/github'alias js 'cd ~/work/time/js/ka'alias a3 'cd ~/work/time/a3'alias ucs 'cd ~/work/time/ucs'alias git-log 'git log --stat'alias git-log-diff 'git log -p'#alias mysql /usr/local/mysql/bin/mysql#alias mysqladmin /usr/local/mysql/bin/mysqladmin#alias mysql_start 'sudo /Library/StartupItems/MySQLCOM/MySQLCOM start'alias tailucsadmin 'tail -f /data/timeinc/servers/apache-rails19-admin/logs/ti_savvis_ucs_admin_dev.log'alias tailucs 'tail -f /data/timeinc/servers/apache-rails/logs/ti_savvis_ucs_dev.log'alias ka-0426 '/Users/han/work/time/ka-2011-04-26'alias ka-0426 'cd /Users/han/work/time/ka-2011-04-26'alias sender 'cd ~/work/nyu/sender'alias temple 'ssh mid9daemon@ve.kkvswnpp.vesrv.com'alias imlogs 'cd /home/han/.purple/logs'alias monitor_info 'xdpyinfo'alias tsap 'cd /home/han/work/time/tsap'alias whirr '$WHIRR_HOME/bin/whirr'alias stylefind-staging 'ssh hqiu@stylefind-analytics-staging.managed.contegix.com'alias stylefind 'ssh hqiu@stylefind-analytics01.managed.contegix.com'alias monkey 'cd /home/han/work/time/tsap/tsap-affiliate-download'
+alias 
+*grep alias .bashrc
+*grep 'alias ' .bashrc
+*grep 'alias ' .bashrc | tr '=' ' '
+alias rake 'bundle exec rake'alias wavm003 "ssh tl_admin@lsecpwavm003.sec.amexpub.com"alias puppet_master "ssh tl_admin@puppet.amexpub.com"alias qa_slideshow "ssh tl_admin@qa.slideshow-tool.foodandwine.com"alias qa_mongo "ssh tl_admin@qa.mongodb.amexpub.com"alias fwr 'cd /Users/cqiu1/work/fwr-frontend'alias gb 'git branch'alias gba 'git branch -a'alias gbr 'git branch -r'alias gs 'git status'alias g 'git'alias gbranches 'git show-branch --more 40'alias glpretty "git log --pretty oneline"alias gp 'git pull'alias gd 'git diff --color'alias gc 'git checkout'alias gl_changes_in_branch_but_not_in_master 'git log -p master..branch'alias gdiff_between_current_last_commit 'git diff HEAD~1 HEAD'alias tar 'gnutar'alias tobranchqa 'ssh fwr_deploy@branchqa.tools.foodandwine.com'alias branch_qa_deploy 'cap branchqa deploy:ci'alias fwr_prod 'ssh fwr_deploy@lcarpwa006.car.amexpub.intra'alias fwr_prod 'ssh fwr_deploy@lcarpwa005.car.amexpub.intra'alias prod_wine_tool_sec "ssh tl_admin@lsecpwavm005.sec.amexpub.com"alias prod_shortcuts_tool_sec "ssh tl_admin@lsecpwavm015.sec.amexpub.com"
+alias
+temple
+ll
+pro
+ll
+ka
+alias
+work
+ll
+ll
+alias
+alias tar 'gnutar'alias tobranchqa 'ssh fwr_deploy@branchqa.tools.foodandwine.com'alias branch_qa_deploy 'cap branchqa deploy:ci'alias fwr_prod 'ssh fwr_deploy@lcarpwa006.car.amexpub.intra'alias fwr_prod 'ssh fwr_deploy@lcarpwa005.car.amexpub.intra'alias prod_wine_tool_sec "ssh tl_admin@lsecpwavm005.sec.amexpub.com"alias prod_shortcuts_tool_sec "ssh tl_admin@lsecpwavm015.sec.amexpub.com"alias qa_mongo "ssh tl_admin@qa.mongodb.amexpub.com"
+alias
+branch_qa
+alias
+tobranchqa
+ll
+gb
+cd fwr-frontend.back/
+cd ..
+ll
+cd fwr-frontend
+ll
+gb
+alias
+gc cutover
+gp
+gc coldfusion
+g log -p | less
+ll
+alias
+curl  "http://qa.tools.foodandwine.com"
+curl  http://qa.tools.foodandwine.com
+cd ..
+ll
+cd shortcut
+cd shortcuts
+ll
+gb
+gp
+gp
+gb
+gp
+g checkout master
+git checkout master
+git pull
+git branch coldfusion
+g checkout coldfusion
+gcheckout coldfusion
+alias
+alias g 'git $1'
+g checkout coldfusion
+gs
+gd
+gs
+g checkout vendor/plugins/people/config/initializers/couchdb.rb
+gs
+g checkout  vendor/plugins/people/config/initializers/couchdb.rb
+git checkout  vendor/plugins/people/config/initializers/couchdb.rb
+gs
+alias
+history
+alias g 'git $1'
+g
+g checkout
+gs
+dig  http://qa.venues.amexpub.com
+alias
+curl http://qa.venues.amexpub.com
+curl --help
+curl -i http://qa.venues.amexpub.com
+cd ..
+cd ..
+cd ..
+cd ..
+ff member.js
+find . -name 'member.js'
+./fwr-frontend.back/fwr-frontend/public/javascripts/community/member.js
+find . -name 'member.js'
+cd fwr-frontend
+ll
+cd public/javascripts/
+ll
+find . -name member*
+find . -name member*.js
+gb
+g checkout master
+g checkout community-qa
+ll
+gs
+git checkout community-qa
+ll

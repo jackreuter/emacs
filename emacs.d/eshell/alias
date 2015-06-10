@@ -1,0 +1,49 @@
+alias g git $1
+alias ff find-file $1
+alias ll ls -al
+alias rc rails console
+alias rs rails server
+alias work cd ~/work/
+alias ka cd ~/work/time/ka
+alias pro cd ~/work/time/profile
+alias hub cd ~/work/github
+alias js cd ~/work/time/js/ka
+alias a3 cd ~/work/time/a3
+alias ucs cd ~/work/time/ucs
+alias git-log git log --stat
+alias git-log-diff git log -p
+alias tailucsadmin tail -f /data/timeinc/servers/apache-rails19-admin/logs/ti_savvis_ucs_admin_dev.log
+alias tailucs tail -f /data/timeinc/servers/apache-rails/logs/ti_savvis_ucs_dev.log
+alias ka-0426 cd /Users/han/work/time/ka-2011-04-26
+alias sender cd ~/work/nyu/sender
+alias temple ssh mid9daemon@ve.kkvswnpp.vesrv.com
+alias imlogs cd /home/han/.purple/logs
+alias monitor_info xdpyinfo
+alias tsap cd /home/han/work/time/tsap
+alias whirr $WHIRR_HOME/bin/whirr
+alias stylefind-staging ssh hqiu@stylefind-analytics-staging.managed.contegix.com
+alias stylefind ssh hqiu@stylefind-analytics01.managed.contegix.com
+alias monkey cd /home/han/work/time/tsap/tsap-affiliate-download
+alias rake bundle exec rake
+alias wavm003 ssh tl_admin@lsecpwavm003.sec.amexpub.com
+alias puppet_master ssh tl_admin@puppet.amexpub.com
+alias qa_slideshow ssh tl_admin@qa.slideshow-tool.foodandwine.com
+alias fwr cd /Users/cqiu1/work/fwr-frontend
+alias gb git branch
+alias gba git branch -a
+alias gbr git branch -r
+alias gs git status
+alias gbranches git show-branch --more 40
+alias glpretty git log --pretty oneline
+alias gp git pull
+alias gd git diff --color
+alias gc git checkout
+alias gl_changes_in_branch_but_not_in_master git log -p master..branch
+alias gdiff_between_current_last_commit git diff HEAD~1 HEAD
+alias tar gnutar
+alias tobranchqa ssh fwr_deploy@branchqa.tools.foodandwine.com
+alias branch_qa_deploy cap branchqa deploy:ci
+alias fwr_prod ssh fwr_deploy@lcarpwa005.car.amexpub.intra
+alias prod_wine_tool_sec ssh tl_admin@lsecpwavm005.sec.amexpub.com
+alias prod_shortcuts_tool_sec ssh tl_admin@lsecpwavm015.sec.amexpub.com
+alias qa_mongo ssh tl_admin@qa.mongodb.amexpub.com

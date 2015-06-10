@@ -1,0 +1,5 @@
+To know what a particular face is, position the cursor on the font, and type 'describe-face' in mini-buffer
+change the face by using set-face-foreground
+
+Be aware that the mode needs to be loaded in order for some face to exist, for example, the dired-mode
+(add-hook 'dired-mode-hook (lambda() (set-face-foreground 'dired-directory "yellow" )))
